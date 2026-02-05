@@ -195,12 +195,6 @@ span {
   position: relative;
 }
 
-.typing-text span:before {
-  content: " Website developer";
-  color: #b74b4b;
-  animation: words 20s infinite;
-}
-
 .typing-text span:after {
   content: "";
   background-color: black;
@@ -332,15 +326,15 @@ span {
 }
 
 .progress.js {
-  width: 60%;
+  width: 40%;
 }
 
 .progress.java {
-  width: 65%;
+  width: 20%;
 }
 
 .progress.sql {
-  width: 70%;
+  width: 30%;
 }
 .education {
   background-color: black;
