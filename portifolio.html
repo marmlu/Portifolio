@@ -19,7 +19,7 @@
         <a href="#skills">Skills</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <section class="home">
@@ -181,6 +181,46 @@
             workflow in a collaborative environment.
           </p>
         </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>nuhamin@example.com</p>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+251 9XXXXXXXX</p>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>Addis Ababa, Ethiopia</p>
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          action="mailto:nuhamin@example.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
       </div>
     </section>
   </body>
