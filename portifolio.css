@@ -57,7 +57,7 @@ nav a {
 nav a:hover,
 nav a.active {
   color: #b74b4b;
-  border-bottom: 3px solid #b74b4b;
+  border-bottom: 1px solid #b74b4b;
 }
 
 @media (max-width: 995px) {
@@ -66,12 +66,11 @@ nav a.active {
     display: none;
     top: 0;
     right: 0;
-    width: 40%;
-    border-left: 3px solid #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    width: 10%;
+    height: 100px;
     border-bottom-left-radius: 2rem;
-    padding: 1rem solid;
-    background-color: #161616;
+    padding: 0.1rem solid;
+    background-color: transparent;
     border-top: 0.1rem solid rgba(0, 0, 0, 0, 1);
   }
 
@@ -81,12 +80,12 @@ nav a.active {
 
   nav a {
     display: block;
-    font-size: 2rem;
-    margin: 3rem;
+    font-size: 1.8rem;
+    margin: 1rem;
   }
   nav a:hover,
   nav a.active {
-    padding: 1rem;
+    padding: 1.5rem;
     padding-radius: 0.5rem;
     border-bottom: 0.5rem solid #b74b4b;
   }
@@ -104,7 +103,9 @@ section {
   gap: 8rem;
   background-color: black;
 }
-
+.home-img {
+  width: 300px;
+}
 .home.home-content h1 {
   font-size: 6rem;
   font-weight: 700px;
@@ -228,6 +229,13 @@ span {
   .home-img.img {
     width: 70vw;
     margin-top: 4rem;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 200px;
+    margin: 0px;
   }
 }
 .services {
